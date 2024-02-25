@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf'), url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'idroid', Times, serif;
+    color: #11cb65;
+}
+
+h2{
+    background-image: linear-gradient(to left, #247c4c1b, #3cd98355 );
+    font-family: 'idroid', Times, serif;;
+    color: #11cb65;
+    padding: 0px 20px;
+
+}
+
+.img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* fim do esrtilo para texto e imagem */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to top, #247C4B, #3CD983 );
+    color: white;
+    text-align: center;
+    padding: 0px;
+    border: 50px;
+    margin: -24px -7px 1px -7px;
+
+}
+
+header > nav{
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    border: 7px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 1px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(20, 153, 206);
+    font-weight: bold;
+    margin: 10px;
+    border-bottom: 3px solid rgb(20, 153, 206);
+}
+
+main{
+    justify-content: center;
+    background-color: white;
+    margin: 0px 196px;
+    border: 1px;
+    padding: 10px;
+    
+}
+
+#video{
+    background-color: #247C4B;
+    text-align: center;
+    margin: -1px;
+    border: 10px;
+    padding: 10px;
+}
+
+#video > iframe{
+    max-width: 100%;
+}
+
+#curiosidades{
+    background-color: #C5EBD6;
+    margin: 10px;
+    border: 10px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#curiosidades > h3{
+    background-color: #2FA866;
+    margin: -3px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+
+}
+
+#curiosidades div{
+    display: inline-block;
+    height: 200px;
+    height: 130px;
+    
+}
+
+#curiosidades .versao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.esquerda{
+    margin: 10px;
+    border: 10px;
+    padding: 3px;
+    width: 500px;
+}
+
+.direita{
+    margin: 10px;
+    border: 10px;
+    padding: 3px;
+    width: 500px;
+}
+
+a {
+    color: #11cb65;
+    text-decoration: none;
+}
+
+#fale-conosco{
+    margin: 10px;
+    border: 10px;
+    padding: 3px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #154b2e;
+    margin: -24px -7px 1px -7px;
+    color: white;
+    margin: 3px -7px -19px -7px;
+
+}
